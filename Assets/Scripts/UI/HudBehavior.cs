@@ -11,7 +11,7 @@ public class HudBehavior : MonoBehaviour
     [Header("UI")]
     [SerializeField] private TMP_Text _currentScore;
     [SerializeField] private TMP_Text _playerHealthUI;
-
+    [SerializeField] private GameObject _healthUIObject;
 
     [Header("Game Win")]
     [SerializeField] private GameObject _winScreen;
@@ -78,6 +78,7 @@ public class HudBehavior : MonoBehaviour
     private void ShowGameOverScreen()
     {
         _gameOverScreen.SetActive(true);
+        _healthUIObject.SetActive(false);
     }
 
     private void ShowWinScreen()
