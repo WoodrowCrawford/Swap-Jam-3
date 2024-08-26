@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         if (scene == SceneManager.GetSceneByBuildIndex(0))
         {
             //play audio here
-           
+            AudioManager.PlayAudio("MainTheme");
 
         }
 
