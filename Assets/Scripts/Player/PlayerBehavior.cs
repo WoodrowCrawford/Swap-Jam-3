@@ -6,6 +6,8 @@ public class PlayerBehavior : MonoBehaviour
 {
     [SerializeField] private int _health;
 
+    public int Health { get { return _health; } }
+
     //delegate
     public delegate void PlayerEventHandler();
 

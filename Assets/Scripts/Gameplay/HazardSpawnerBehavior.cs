@@ -27,5 +27,9 @@ public class HazardSpawnerBehavior : MonoBehaviour
         int randomIndex = Random.Range(0, spawnPoints.Length);
 
         Instantiate(hazardToSpawn, spawnPoints[randomIndex]);
+        Instantiate(hazardToSpawn, spawnPoints[randomIndex]);
+        Instantiate(hazardToSpawn, spawnPoints[randomIndex]);
+        Instantiate(hazardToSpawn, spawnPoints[randomIndex]);
+        Instantiate(hazardToSpawn, spawnPoints[randomIndex]);
     }
 }

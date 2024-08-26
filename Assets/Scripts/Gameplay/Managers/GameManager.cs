@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene == SceneManager.GetSceneByBuildIndex(0))
+        if (scene == SceneManager.GetSceneByBuildIndex(1))
         {
             //play audio here
             AudioManager.PlayAudio("MainTheme");

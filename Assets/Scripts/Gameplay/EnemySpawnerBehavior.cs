@@ -23,7 +23,7 @@ public class EnemySpawnerBehavior : MonoBehaviour
 
     private void Start()
     {
-        SpawnEnemyAtRandomLocation();
+       
     }
 
     public void SpawnEnemyAtRandomLocation()
@@ -31,5 +31,9 @@ public class EnemySpawnerBehavior : MonoBehaviour
         int randomIndex = Random.Range(0, spawnPoints.Length);
 
         Instantiate(enemyToSpawn, spawnPoints[randomIndex]);
+        Instantiate(enemyToSpawn, spawnPoints[randomIndex]);
+        Instantiate(enemyToSpawn, spawnPoints[randomIndex]);
+        
+
     }
 }
