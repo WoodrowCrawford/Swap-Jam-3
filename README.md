@@ -41,4 +41,7 @@ A top down 2D game I created for a game jam. Find all the bottles in the map whi
 
 # Links
 
-[Play on itch here!](https://pheonyxgames.itch.io/the-depths)
+[Play the web version on itch here!](https://pheonyxgames.itch.io/the-depths)
+
+[Play the web version on itch here!](https://github.com/WoodrowCrawford/Swap-Jam-3/releases/download/v1.0/TheDepths.zip)
+
