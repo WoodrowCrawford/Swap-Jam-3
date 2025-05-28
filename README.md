@@ -29,11 +29,16 @@ A top down 2D game I created for a game jam. Find all the bottles in the map whi
 *Bottles scattered across the map*
 
 
+<img src="https://github.com/user-attachments/assets/daa67dbc-da40-464b-9549-63114b02899f" alt="drawing" width="300"/>
+
+*A water current*
+
+
 <img src="https://github.com/user-attachments/assets/67af2104-0c6d-4925-85f6-6c31149b4d7b" alt="drawing" width="300"/>
 
 *An enemy approaching the player*
 
 
-
-
 # Links
+
+[Play on itch here!](https://pheonyxgames.itch.io/the-depths)
